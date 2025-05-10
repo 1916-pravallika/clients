@@ -1,0 +1,40 @@
+/* Search.css */
+.container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  
+  .form {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem; /* Spacing between input and button */
+  }
+  
+  input[type="text"] {
+    margin: 0;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #007bff; /* Bootstrap primary color */
+    border-radius: 5px;
+    /* width: 20rem; */
+  }
+  
+  .btn-primary {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Darker shade of primary color */
+  }
